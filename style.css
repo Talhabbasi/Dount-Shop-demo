@@ -1,0 +1,164 @@
+body{
+ background-image: url(./bg-tile.gif);
+ color: #4b2707;
+ font-size: 14px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ text-rendering: optimizeLegibility;
+}
+.container{
+
+    width: 850px;
+    padding: 30px 24px ;
+    margin: 0 auto;
+}
+
+h1,h2{
+    color: orange;
+line-height: 33px;
+    margin: 0;
+ font-size: 40px;
+ font-weight: normal;
+ font-family: sans-serif;
+}
+h1{
+text-align:center;
+padding:0px 0px 20px;
+background: url(./header-divider.png)bottom center no-repeat;
+}
+h1 em{
+    font-style: normal;
+    color: brown;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    margin: 0;
+}
+p.lead{
+    text-align:center;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0;
+
+}
+p{
+    margin: 0;
+}
+
+a:link{
+color: brown;
+
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: chartreuse;
+}
+.hr{
+    border: none;
+    width: 333px;
+    height: 33px;
+    margin: 30px auto;
+    background:url(./divider.png) center center no-repeat;
+}
+
+header nav{
+    text-align: center;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 140px;
+}
+header nav ul li{
+    font-size: 18px;
+    padding: 0 20px;
+    display: inline-block;
+}
+header nav ul li a {
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    color: brown;
+    padding-top:20px;
+    background: url(./tiny-donut.png) top center no-repeat;
+
+}
+header nav ul li.liMain a{
+    align-content: center;
+    width: 293px;
+    height: 141px;
+    text-indent: -9999px;
+display: block;
+background: url(./logo.png) center center no-repeat;
+}
+header nav ul li.liMain a:hover{
+    padding: 0;
+    background: url(./logo-hover.png)center center no-repeat;
+}
+
+#hero {
+    background: orange url(./bg-tile-yellow.gif) top left repeat;
+}
+#hero .container{ 
+    position: relative;
+}
+#hero .large-ribon{
+    width: 150px;
+    height: 190px;
+     text-indent: -9999px;
+    background: url(./fresh-whole-ingredients.png) top left no-repeat;
+    position: absolute;
+    top: -40px;
+    right: -98px;
+
+}
+.story-excert{
+  float: left;
+  font-size: 16px;
+  width:480px;
+  height: auto;
+  margin-right: 24px;
+}
+#best-counts{
+
+background: url(./award.png) left center no-repeat;
+padding: 40px 0 70px 100px;
+float: left;
+
+width: 240px;
+
+}
+#articles {
+    width: 370px;
+    float: left;
+    margin-right: 24px;    
+}    
+#features-image{
+    width: 240px;
+    float: left;
+}
+.main{
+    width: 100%;
+    color: white;
+    background: brown;
+    float: left;
+    text-align:center;
+}
+.clearfix::after{
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height:0 ;
+
+}
+
+*html .group{zoom: 1;}
+*.first-child+html.group{zoom: 1;}
